@@ -1,0 +1,176 @@
+
+body {
+    background-color: #1B1924;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    min-width: 390px;
+    
+
+}
+
+img{
+    width: 90px;
+    height: 90px;
+
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: "josefin sans", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    width: 272px;
+
+
+}
+
+#enter {
+    width: 317px;
+    height: 118px;
+    background-color: #444059;
+    border-radius: 8px;
+    border: none;
+    line-height: 18px;
+    vertical-align: top;
+    padding: 10px;
+    padding-top: 5px;
+    font-family: "Inter",sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    box-sizing: border-box;
+    
+}
+
+::placeholder {
+    text-align: left; 
+    
+    font-family: "Inter",sans-serif;
+    color: #8F8F8F;
+    font-weight: 400;
+    font-size: 15px;
+    
+    
+    
+ }
+
+ #people {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    
+ }
+
+ #from {
+    background-color: #444059;
+    border-radius: 8px;
+    border: none;
+    font-family: "Inter",sans-serif;
+    color: #8F8F8F;
+    font-weight: 400;
+    font-size: 15px;
+    width: 153px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+
+ }
+
+ #to {
+    background-color: #444059;
+    border-radius: 8px;
+    border: none;
+    font-family: "Inter",sans-serif;
+    color: #8F8F8F;
+    font-weight: 400;
+    font-size: 15px;
+    width: 153px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+ }
+
+ #publish {
+    background-color: #28A9F1;
+    color: #04131C;
+    font-family: "josefin sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    width: 317px;
+    height: 61px;
+    border-radius: 8px;
+    border: none;
+
+ }
+
+ ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ ul li {
+    background-color: #FFFFFF;
+    color: #1B1924;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+  
+    width: 317px;
+   
+    
+    border: none;
+    list-style: none;
+   
+ }
+
+ li p {
+   padding:5px;
+ }
+
+ li b {
+   padding:5px;
+ }
+
+ #footer {
+
+   display: flex;
+   justify-content: space-between;
+
+ }
+
+
+
+.likebtn {
+
+   background-color: white;
+   border: none;
+
+}
+
+#endor {
+   width: 160px;
+   height: 20px;
+   font-family: "josefin sans", sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 20px;
+   color: white;
+   margin-bottom: 0;
+
+}
+ 
